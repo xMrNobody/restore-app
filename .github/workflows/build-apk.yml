@@ -30,7 +30,7 @@ jobs:
 
       - name: Prebuild Android project
         run: npx expo prebuild --platform android --clean --non-interactive
-        env:
+        
   
 
       - name: Build APK
